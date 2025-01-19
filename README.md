@@ -2,7 +2,8 @@
 
 ## Table of Contents
 1. [⚒️ Tech and Frameworks used](#-tech-and-frameworks-used)  
-2. [⚙️ Installation](#-installation) 
+2. [⚙️ Installation](#-installation)
+3. [🏷️ Key Decisions](#-Key Decisions)
 
 ---
 ## ⚒️ Tech and Frameworks used
@@ -21,4 +22,15 @@
 cd blogs && npm i && npm run dev
 cd client && npm i && npm run dev
 ```
+
+## 🏷️ Key Decisions
+
+- Payload CMS
+
+I chose to install Payload CMS using the recommended method outlined in the official [Payload](https://payloadcms.com/docs/getting-started/installation) This approach ensures adherence to industry best practices, promoting a reliable and scalable setup for the project.
+
+- TypeScript
+
+Why TypeScript?
+TypeScript is used for better type safety, enhanced development experience, and better maintainability of the code. It helps catch errors during development and ensures more predictable behavior in the codebase.
   
