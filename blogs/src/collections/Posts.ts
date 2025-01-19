@@ -4,7 +4,12 @@ import type { CollectionConfig } from 'payload'
 export const Posts: CollectionConfig = {
   slug: 'posts',
   access: {
-    read: () => true,
+    read: ({ req: { user } }) => {
+      if (user) {
+        return true
+      }
+      return false
+    },
   },
   fields: [
     {
