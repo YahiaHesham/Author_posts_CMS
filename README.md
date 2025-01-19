@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [⚒️ Tech and Frameworks used](#-tech-and-frameworks-used)  
 2. [⚙️ Installation](#-installation)
-3. [🏷️ Key Decisions](#-Key Decisions)
+3. [🏷️ Key Decisions](#-Key-decisions)
 
 ---
 ## ⚒️ Tech and Frameworks used
