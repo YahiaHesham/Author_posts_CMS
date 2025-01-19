@@ -4,13 +4,13 @@
 1. [⚒️ Tech and Frameworks used](#-tech-and-frameworks-used)  
 2. [⚙️ Installation](#-installation) 
 
-
+---
 ## ⚒️ Tech and Frameworks used
 - TypeScript
 - Payload CMS
 - Tailwind CSS
 - React
-
+---
 ## ⚙️ Installation
 - Make sure you have [Node](https://nodejs.org/en) and [Git](https://git-scm.com/) and  mongodb
   ```bash
