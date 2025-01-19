@@ -1,13 +1,17 @@
 import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import { PostDetailsPage } from "./pages/PostDetailsPage";
 
-import HomePage from "./HomePage";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="bg-slate-500 ">
-      <HomePage />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        {/* Route with dynamic parameter */}
+        <Route path="/post/:postId" element={<PostDetailsPage />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -50,12 +50,14 @@ export const Posts: CollectionConfig = {
           const data = await response.json()
           console.log(data)
           const simplifiedData = data.docs.map((post: any) => ({
+            id: post.id,
             title: post.title,
-            content: post.content,
+            content: post.content.root.children[0].children[0].text,
             authorName: post.author.name,
-            authorImageId: post.author.profilePicture.url,
+            authorImage: post.author.profilePicture.url,
             coverImage: post.coverImage.url,
             publishDate: post.publishDate,
+            authorBio: post.author.bio.root.children[0].children[0].text,
           }))
 
           return new Response(JSON.stringify(simplifiedData, null, 2), { status: 200 })
