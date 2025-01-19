@@ -1,4 +1,4 @@
-Your Fav Blogs
+# Your Fav Blogs
 
 
 ## ⚒️ Tech and Frameworks used
